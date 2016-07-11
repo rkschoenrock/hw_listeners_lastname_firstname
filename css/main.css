@@ -1,3 +1,10 @@
 body {
     background-color: olive;
 }
+
+.container {
+	width: 400px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+}

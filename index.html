@@ -9,9 +9,16 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-
-
+    <div class="container">
+        <h1>Fill Out This Form</h1>
+		<form action="mailto:irbecka@ufl.edu" method="post">
+    		<input type="text" placeholder="First Name" id="first" name="first" class="inputwidth" />
+    		<input type="text" placeholder="Last Name" id="last" name="last" class="inputwidth" />
+    		<input type="email" placeholder="Email" id="email" name="email" class="inputwidth" />
+    		<textarea placeholder="Message" id="message" name="message" class="inputwidth"></textarea>
+    		<input type="submit" name="submit" id="submit" value="send" />
+		</form>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
