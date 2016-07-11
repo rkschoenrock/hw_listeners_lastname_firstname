@@ -2,16 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Custom</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-
-
+    <div class="container">
+        <h1>Another Form</h1>
+        <p>Please scroll down the page, resize the text area and reset the form.</p>
+        <form action="mailto:irbecka@ufl.edu" method="post">
+            <input type="text" placeholder="YOUR NAME HERE" id="name" name="name" class="input-width" />
+            <input type="email" placeholder="YOUR EMAIL HERE" id="email" name="email" class="input-width" />
+            <input type="email" placeholder="YOUR PHONE NUMBER HERE" id="phone" name="phone" class="input-width" />
+            <textarea placeholder="TYPE HERE AND RESIZE" id="message" name="message" class="input-width" rows="30"></textarea>
+            <input type="submit" name="submit" id="submit" value="send" />
+            <input type="reset" name="reset" id="reset" value="clear" />
+        </form>
+        <img src="img/meme.jpg" alt="Listener Meme" />
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
