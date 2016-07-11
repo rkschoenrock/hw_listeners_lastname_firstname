@@ -1,0 +1,46 @@
+body {
+	background-color: cornflowerblue;
+	font-family: sans-serif;
+	color: navy;
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid navy;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.input-width {
+	width: 580px;
+	margin: auto;
+	padding: 10px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	background-color: lightblue;
+	border: 1px solid navy;
+}
+
+#reset,
+#submit {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid navy;
+	display: block;
+	float: right;
+	background-color: lightblue;
+	border: 1px solid navy;
+}
+
+img {
+	padding: 10px;
+	clear: both;
+	margin: auto;
+	display: block;
+}
