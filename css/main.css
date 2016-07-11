@@ -1,10 +1,33 @@
 body {
-    background-color: olive;
+	background-color: olive;
 }
 
 .container {
 	width: 400px;
 	margin: auto;
-	padding: 20px;
+	padding: 20px 20px 70px 20px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	color: #262626;
+	font-family: sans-serif;
+}
+
+.inputwidth {
+	width: 380px;
+	margin: auto;
+	padding: 10px;
+	margin-top: 10px;
+	font-family: sans-serif;
+}
+
+#submit {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid gray;
+	display: block;
+	float: right;
 	background-color: white;
 }
